@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:weightSum="1">
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:text="This is a User Login app created by Victor"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:id="@+id/tText"/>
+
+    <ImageButton
+        android:layout_width="323dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:src="@drawable/victor"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/victor"
+        android:layout_weight="0.37" />
+
+
+        <TextView
+    android:layout_width="wrap_content"
+    android:text="This application is very simple and easy to use. Enjoy!!!!!"
+    android:textSize="20dp"
+    android:textStyle="bold"
+            android:layout_height="wrap_content"
+    android:id="@+id/tText2"
+            android:layout_weight="0.05" />
+
+
+</LinearLayout>

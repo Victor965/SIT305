@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical"
+android:layout_height="match_parent"
+android:layout_width="match_parent">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:text="Username"
+    android:layout_height="wrap_content" />
+
+<EditText
+    android:id="@+id/editUsername"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="15dp"/>
+
+
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:text="Password"
+    android:layout_height="wrap_content" />
+
+
+<EditText
+    android:id="@+id/editPassword"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="textPassword"
+    android:layout_marginBottom="15dp"/>
+
+    <RadioButton
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:text="Agree with Terms"
+        android:id="@+id/radioButton"
+        android:checked="false" />
+
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Login"
+    android:id="@+id/btnLogin"
+    android:layout_marginBottom="15dp"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Register Now :)"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:id="@+id/tReg"
+
+        />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:src="@drawable/deakin"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/logo"
+        android:onClick="imageButton"
+        />
+
+
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Video"
+        android:id="@+id/btnVideo"
+        android:onClick="openVideo"/>
+
+
+
+
+</LinearLayout>
